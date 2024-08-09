@@ -8,13 +8,13 @@
 <body>
     <form action="" method="post">
         <p>Digite seu nome</p>
-        <input type="text" name="tenorio" placeholder="lucas tenorio">
+        <input type="text" name="tenorio" placeholder="lucas tenorio" required>
         <br>
         <p>Seu email</p>
-        <input type="email" name="email" placeholder="EX:" value="@escola.pr.gov.br">
+        <input type="email" name="email" placeholder="EX:" value="@escola.pr.gov.br" required>
         <br>
         <p>Telefone</p>
-        <input type="number" name="phone" placeholder="(xx) xxxxx-xxxx">
+        <input type="number" name="phone" placeholder="(xx) xxxxx-xxxx" required>
         <br>
         <p>Você trabalha</p>
         <input type="radio" name="work" value="sim" checked> com certeza
@@ -31,7 +31,7 @@
        </select>
        <br>
        <p>feedback</p>
-       <textarea name="feedback" id=""></textarea>
+       <textarea name="feedback" id=""></textarea required>
        <br>
        <input type="checkbox" name="novidades" checked> aceita receber novidades da empresa ?
        <br>
